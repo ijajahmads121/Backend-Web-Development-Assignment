@@ -1,0 +1,14 @@
+{
+  "name": "node-runtime-streams",
+  "version": "1.0.0",
+  "description": "Node.js Runtime Features — read a file with fs.readFile and with a stream, and explain the difference.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["nodejs", "streams", "buffers", "fs", "file-system"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
