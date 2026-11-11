@@ -1,0 +1,17 @@
+{
+  "name": "introduction-to-webhooks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A secure Express webhook endpoint with HMAC verification and idempotency",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node tests/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
