@@ -1,0 +1,27 @@
+### Register a demo account
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "name": "Sam Example",
+  "email": "sam@example.com",
+  "password": "a-long-demo-passphrase"
+}
+
+### Log in (email is normalized)
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "SAM@example.com",
+  "password": "a-long-demo-passphrase"
+}
+
+### Invalid login (same body for wrong password or unknown email)
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "sam@example.com",
+  "password": "not-the-right-passphrase"
+}
